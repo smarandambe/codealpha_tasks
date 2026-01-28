@@ -2,7 +2,7 @@ from django.contrib.contenttypes.fields import GenericForeignKey
 from django.contrib.contenttypes.models import ContentType
 from django.db import models
 from django.db.models import Max
-from django.utils import timezone
+from django.utils import timezone 
 from users.models import User
 
 
