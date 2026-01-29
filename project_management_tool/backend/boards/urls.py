@@ -10,7 +10,7 @@ urlpatterns = [
     path('lists/', ListShow.as_view()),
     path('lists/<int:pk>/', ListDetail.as_view()),
     path('labels/', LabelList.as_view()),
-    path('labels/<int:pk>/', LabelDetail.as_view()),
+    path('labels/<int:pk>/', LabelDetail.as_view()), 
     path('comments/', CommentList.as_view()),
     path('comments/<int:pk>/', CommentDetail.as_view()),
     path('attachments/', AttachmentList.as_view()),
