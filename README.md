@@ -6,7 +6,7 @@ Each project demonstrates practical application of frontend and backend concepts
 
 ## 📁 Projects Included
 
-### ✔️ 1. Simple Ecommerce Store  
+### ✔️ 1. Simple Ecommerce Store   
 A basic online shopping interface where users can view products, search, and interact with a simplified shopping experience.
 
 🧠 **What it includes:**  
