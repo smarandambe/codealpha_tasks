@@ -14,7 +14,7 @@ class Profile(models.Model):
     # user = models.ForeignKey(User, on_delete=models.CASCADE)
     user=models.OneToOneField(User,null=True,on_delete=models.CASCADE)
     description = models.TextField(blank=True)
-    fname = models.TextField(blank=True)
+    fname = models.TextField(blank=True) 
     lname = models.TextField(blank=True)
     username=models.TextField(blank=True)
     profileimg = models.ImageField(upload_to='profile_images', default='blank-profile-picture.png')
