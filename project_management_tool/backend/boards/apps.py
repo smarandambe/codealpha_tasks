@@ -6,3 +6,4 @@ class BoardsConfig(AppConfig):
 
     def ready(self):
         import boards.signals
+ 
