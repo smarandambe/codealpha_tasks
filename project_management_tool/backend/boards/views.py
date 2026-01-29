@@ -8,7 +8,7 @@ from django.utils.module_loading import import_string
 from projects.models import Project, ProjectMembership
 from projects.permissions import (IsProjectAdminOrMemberReadOnly,
                                   IsProjectMember)
-from rest_framework import generics, permissions, serializers, status
+from rest_framework import generics, permissions, serializers, status 
 from rest_framework.exceptions import PermissionDenied
 from rest_framework.response import Response
 from rest_framework.views import APIView
