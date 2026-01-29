@@ -6,7 +6,7 @@ from django.utils import timezone
 from users.models import User
 
 
-class Board(models.Model):
+class Board(models.Model): 
     owner_model = models.ForeignKey(ContentType, blank=False, null=False,
                                     related_name='board',
                                     on_delete=models.CASCADE,
