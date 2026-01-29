@@ -9,7 +9,7 @@ from django.contrib.auth.models import User
 from django.contrib.auth import get_user_model
 from django.conf import settings
 from django.views.generic import DetailView,CreateView
-from django.contrib.auth.views import PasswordChangeView
+from django.contrib.auth.views import PasswordChangeView 
 from .models import *
 from django.urls import reverse_lazy,reverse
 from django.views import generic
