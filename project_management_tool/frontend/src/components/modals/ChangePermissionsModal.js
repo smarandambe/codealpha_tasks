@@ -6,7 +6,7 @@ const getChangePermissionsPosition = (permissionButton) => {
     if (!permissionButton) return null;
     return {
         top:
-            permissionButton.getBoundingClientRect().y +
+            permissionButton.getBoundingClientRect().y + 
             permissionButton.getBoundingClientRect().height +
             10 +
             "px",
